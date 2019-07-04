@@ -1,0 +1,19 @@
+/*Setting*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.container{
+	width: 1024px;
+	margin:0 auto;
+}
+/*Header*/
